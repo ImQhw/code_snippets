@@ -1,5 +1,9 @@
 #!/usr/bin/env python3
 
+"""
+From "Programming Pearls, Second Edition, Jon Bentley", chapter 9
+"""
+
 
 def binary_search(a: list, t: int) -> int:
     low, high = 0, len(a) - 1
